@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#brand_name {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    float: left;
+    text-align: center;
+    margin-left: 24px;
+}
+
+#tag_line {
+    float: right;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-right: 24px;
+}
+
+section {
+    width: 100%;
+    height: 695px;
+    float: left;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px; /* Reduced padding */
+}
+
+#m_sweets {
+    width: 1300px;
+    box-sizing: border-box;
+    float: left;
+}
+
+#more_sweets {
+    text-align: center;
+    font-style: normal;
+    font-family: sans-serif;
+    margin-top: 10px; /* Reduced from 40px */
+    
+}
+
+.sweets_new_page {
+    width: 100%;
+    display: flex; /* Arrange items in a row */
+    justify-content: center; /* Center items horizontally */
+    gap: 10px; /* Space between items */
+}
+
+.sweets_first_row {
+    width: 220px; /* Fixed width for each item */
+    text-align: center; /* Center align content */
+    border: 1px solid black; /* Border around each sweet item */
+    padding: 10px; /* Add space inside the div */
+}
+
+#more_sweet_photos_first_row {
+    width: 220px;
+    height: 230px;
+    border-bottom: 1px solid black; /* Adds a border below the image */
+    box-sizing: border-box;
+}
+
+#buy_btn {
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#buy_btn:hover {
+    color: chocolate;
+    background-color: lawngreen;
+}
+.sweets_new_page {
+    /* float: left; */
+    box-sizing: border-box;
+    width: 100%;
+    display: flex; /* Arrange items in a row */
+    justify-content: center; /* Center items horizontally */
+    gap: 10px; /* Space between items */
+}
+
+.sweets_first_row {
+    width: 220px; /* Fixed width for each item */
+    text-align: center; /* Center align content */
+    border: 1px solid black; /* Border around each sweet item */
+    padding: 10px; /* Add space inside the div */
+}
+
+#more_sweet_photos_first_row {
+    width: 220px;
+    height: 230px;
+    border-bottom: 1px solid black; /* Adds a border below the image */
+    box-sizing: border-box;
+}
+
+#buy_btn {
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#buy_btn:hover {
+    color: chocolate;
+    background-color: lawngreen;
+}
+
+.again_new_sweets_new_page {
+    margin-top: 10px;
+    width: 100%;
+    display: flex; /* Arrange items in a row */
+    justify-content: center; /* Center items horizontally */
+    gap: 10px; /* Space between items */
+}
+
+.sweets_second_row {
+    width: 220px; /* Fixed width for each item */
+    text-align: center; /* Center align content */
+    border: 1px solid black; /* Border around each sweet item */
+    padding: 10px; /* Add space inside the div */
+}
+
+#more_sweet_photos_second_row {
+    width: 220px;
+    height: 230px;
+    border-bottom: 1px solid black; /* Adds a border below the image */
+    box-sizing: border-box;
+}
+
+#buy_btn {
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#buy_btn:hover {
+    color: chocolate;
+    background-color: lawngreen;
+}
+
+
+footer {
+    width: 100%;
+    height: 250px;
+    float: left;
+    background-color: chocolate;
+    box-sizing: border-box;
+    border-style: solid;
+}
+
+#contact_us {
+    width: 440px;
+    height: 247px;
+    color: black;
+    font-size: medium;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    float: left;
+    line-height: 33px;
+}
+
+#contact_info {
+    padding-left: 30px;
+    font-size: larger;
+    color: black;
+}
+
+#developer_info {
+    width: 300px;
+    height: 100px;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+#social_link {
+    width: 349px;
+    height: 247px;
+    box-sizing: border-box;
+    font-size: medium;
+    font-family: sans-serif;
+    line-height: 30px;
+    color: black;
+    margin-left: 950px;
+}
+
+#social_logos, #modifying_social_logos {
+    width: 55px;
+    height: 55px;
+    margin-left: 70px;
+}
