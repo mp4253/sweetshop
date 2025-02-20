@@ -125,7 +125,7 @@ section{
   float: left;
   box-sizing: border-box;
   border-width: 2px;
-  border-color: rgb(110, 243, 2);
+/*   border-color: rgb(110, 243, 2); */
   border-style: solid;
   padding: 20px;
 }
