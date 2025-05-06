@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: greenyellow;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 85px;
+    
+    transition: background-image 0.5s ease-in-out;
+    animation: gradientAnimation 5s infinite alternate;
+    background-size: 400% 400%;
+
+}
+
+
+body:hover {
+    background-image: linear-gradient(to right, #00ccff, #0099ff);
+}
+
+
+@keyframes gradientAnimation {
+    0% {
+      background-image: linear-gradient(to right, #ff6600, #ffcc00);
+    }
+    50% {
+      background-image: linear-gradient(to right, #00ccff, #0099ff);
+    }
+    100% {
+      background-image: linear-gradient(to right, #ff6600, #ffcc00);
+    }
+}
+
+
+
+
+
+.loginBox {
+    border: 2px solid black;
+    text-align: center;
+    width: 330px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+   
+}
+
+#heading {
+    text-shadow: 2px 2px 2px red;
+    margin-bottom: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+    width: 100%;
+}  
+
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+#pass_word {
+    width: 100%;
+    padding-right: 35px;
+}
+
+#loader {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: black; 
+}
+
+
+#pass_word:focus + #loader {
+    opacity: 1;
+}
+
+
+
+#checking_checkbox{
+    margin-top: -42px;
+    margin-left: 310px;
+    transform: scale(1.5);
+    accent-color: blue;
+
+}
+
+#user_name, #pass_word {
+    margin-top: 10px;
+    width: 98%;
+    padding: 8px;
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#user_name:focus, #pass_word:focus {
+    border-color: blue;
+    outline: none;
+}
+
+#submit_btn {
+    width: 100px;
+    height: 40px;
+    font-size: larger;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#submit_btn:hover {
+    background-color: chartreuse;
+    color: red;
+}
+
+.links {
+    margin-top: 15px;
+}
+
+.links a {
+    display: block;
+    margin: 5px;
+    text-decoration: none;
+    color: blue;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    display: flex;  
+    justify-content: center; 
+    gap: 15px; 
+    margin-top: 15px;
+}
+
+.icon {
+    width: 50px;
+    height: 45px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    
+    .loginBox {
+        width: 90%;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #submit_btn{
+        margin-top: 0px;
+    }
+
+
+
+    #first, #second{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 22px;
+        font-style: normal;
+    }
+
+
+    .password-container {
+        width: 100%;
+    }
+
+    #loader {
+        top: 28px;
+        left: 200px;
+        right: 8px; 
+        font-size: 29px;
+    }
+
+    #checking_checkbox{
+        margin-top: -24px;
+        margin-left: 276px;
+        transform: scale(1.5);
+        accent-color: blue;
+        cursor: pointer;
+    
+    }
+
+
+    #submit_btn{
+        top: 150px;
+    }
+
+
+}
+
+
+@media (min-width:992px) and (max-width:1920px){
+    .loginBox{
+        width: 430px;
+        height: 470px;
+    }
+
+    #loader {
+        right: 12px;
+        left: 260px;
+        top: 30px;
+    }
+
+    #checking_checkbox{
+        top: 18px;
+        left: 12px;
+        position: relative;
+        cursor: pointer;
+        transform: scale(2);
+    }
+
+
+}
