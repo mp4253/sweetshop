@@ -87,7 +87,8 @@ body {
   margin-top: 2px;
   width: 85px;
   height: 32px;
-  background-color: white;
+  background-color: #ff6600;
+  color: white;
   font-size: large;
 }
 
@@ -95,6 +96,7 @@ body {
 #btn_search:hover {
   background-color: chartreuse;
   color: red;
+  cursor: pointer;
 }
 
 
